@@ -1,0 +1,170 @@
+:root {
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+* {
+    font-weight: 1000;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #3b555a46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    margin: 30px auto;
+    width: 400px;
+}
+
+.heading {
+    font-size: 32pt;
+}
+
+h1 {
+    letter-spacing: 1px;
+    /* margin: 10px 0; */
+    margin-top: 20px;
+}
+
+h3 {
+    border-bottom: 3px solid #040404;
+    padding-bottom: 10px;
+    margin: 0px 0 10px;
+}
+
+h4 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.in-expe-container {
+
+    background-color: #343131;
+    color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.in-expe-container>div {
+    flex: 1;
+    text-align: center;
+}
+
+
+
+.inc-exp-container>div:first-of-type {
+    border-right: 1px solid #dedede;
+}
+
+.money {
+    font-size: 10;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.money-1 {
+    color: #2ecc71;
+}
+
+.money-2 {
+    color: #c0392b;
+}
+
+label {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"] {
+    border: 2px solid #000000;
+    border-radius: 2px;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #444346;
+    box-shadow: var(--box-shadow);
+    color: #fff;
+    border: 0;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 30px;
+    padding: 10px;
+    width: 100%;
+}
+.btn:hover  {
+    background-color: black;
+}
+
+.btn:focus,
+.delete-btn:focus {
+    outline: 0;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.list li {
+    background-color: #fff;
+    box-shadow: var(--box--shadow);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.list li.money-1 {
+    border-right: 5px solid #2ecc71;
+}
+
+.list li.money-2 {
+    border-right: 5px solid #c0392b;
+}
+
+.delete-btn {
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+
+.list li:hover .delete-btn {
+    opacity: 1;
+    background-color: red;
+}

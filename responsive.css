@@ -1,0 +1,36 @@
+/* CSS for small screens (up to 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 20px;
+    }
+    #balance {
+      font-size: 2rem;
+    }
+    .in-expe-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .in-expe-container div {
+      margin-bottom: 10px;
+    }
+    .in-expe-container h4 {
+      margin-bottom: 5px;
+    }
+    .form-control {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* CSS for medium screens (between 768px and 1024px) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+      width: 80%;
+      padding: 30px;
+    }
+    #balance {
+      font-size: 3rem;
+    }
+  }
+  
+  

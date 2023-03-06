@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <h1 class="heading">Expense Tracker</h1>
+    <div class="container">
+        <h3>Your Balance</h3>
+        <h1 id="balance">&#8360; 0</h1>
+        <div class="in-expe-container">
+            <div>
+                <h4>Credit</h4>
+                <p id="money-1" class="money-1">
+                    + &#8360; 0.00
+                </p>
+            </div>
+            <div>
+                <h4>Debit</h4>
+                <p id="money-2" class="money-2">
+                    - &#8360; 0.00
+                </p>
+            </div>
+        </div>
+
+         <h3>History</h3>
+         <ul id="list" class="list">
+            <!-- <li class="exit">Cash <span>-&#x20B9 400</span><button class="delete-btn" value="Delete">X</button></li> -->
+         </ul>
+
+         <h3>Add new item</h3>
+         <form id="form">
+            <div class="form-control">
+                <label for="text">Item</label>
+                <input type="text" name="text" id="text" placeholder="Enter your item">
+            </div>
+            <div class="form-control">
+                <label for="amt">Price</label>
+                <input type="number" id="amt" placeholder="Enter your Price">
+            </div>
+            <button class="btn">All Items</button>
+         </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
