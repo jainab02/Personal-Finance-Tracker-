@@ -8,4 +8,4 @@ Functions:
 * Show total balance.
 * Delete item as per requirements.
 * shows both credit and debit amount.
-*it also stores your data into local storage so you can manage your expenses well.
+* it also stores your data into local storage so you can manage your expenses well.
