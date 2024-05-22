@@ -1,11 +1,11 @@
-# Expense_manager
+# Personal Finance Tracker
 
-Here is the preview of my expense manager:
+## Project Overview
+The **Personal Finance Tracker** is a simple web application designed to help you manage and track your daily expenditures. It features a responsive user interface built with JavaScript, HTML, and CSS.
 
-![Screenshot (396)](https://user-images.githubusercontent.com/84964912/223121776-a12f881b-1a84-49bd-a93b-0089c98856ec.png)
-Functions:
-* Add item.
-* Show total balance.
-* Delete item as per requirements.
-* shows both credit and debit amount.
-* it also stores your data into local storage so you can manage your expenses well.
+## Features
+- **Responsive Interface**: Works seamlessly on different screen sizes.
+- **Add Transactions**: Easily add income and expense entries with descriptions and amounts.
+- **Transaction List**: View all transactions with date, description, and amount. Options to edit or delete entries.
+- **Balance Overview**: Displays current balance along with total credits and debits.
+- **Local Storage**: Automatically saves data in the browser’s local storage to ensure data persistence.
