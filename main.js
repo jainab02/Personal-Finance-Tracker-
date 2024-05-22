@@ -21,16 +21,6 @@ const amount = document.getElementById(
 );
 
 
-// transactions == items
-//transaction == item
-
-// const addingItems = [
-//     { id: 1, text: "flowers", amount: -10 },
-//     { id: 2, text: "soap", amount: -70 },
-//     { id: 3, text: "book", amount: -102 },
-//     { id: 4, text: "camera", amount: 109 }
-// ];
-
 const localStorageTransactions = JSON.parse(localStorage.getItem('items'));
 
 let items = localStorage.getItem("items") !== null ? localStorageTransactions : [];
